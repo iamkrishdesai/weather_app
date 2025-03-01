@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 class WeatherService {
   final String apiKey =
-      "64728db750bf8cac8ae2d2e5812aa578"; //  OpenWeather API key
+      "*************"; //  OpenWeather API key
 
   Future<Map<String, dynamic>> getWeather(String city) async {
     // Use URL encoding for the city name to handle spaces and special characters
